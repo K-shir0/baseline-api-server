@@ -12,8 +12,8 @@ class StoreUserIcon
 {
     public static function storeIcon($src_icon)
     {
-        $width = 100;
-        $height = 100;
+        $width = 512;
+        $height = 512;
 
         //jpeg以外も行けるようにする
         $image = Image::make($src_icon)
